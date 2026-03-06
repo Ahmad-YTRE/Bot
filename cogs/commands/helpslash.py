@@ -591,8 +591,6 @@ class HelpLayout(ui.LayoutView):
             self.container.add_item(self.extra_categories_select)
 
             if not interaction.response.is_done():
-
-            if not interaction.response.is_done():
                 await interaction.response.edit_message(view=self)
             else:
                 await interaction.edit_original_response(view=self)
