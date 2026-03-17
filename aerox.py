@@ -257,12 +257,11 @@ class TicketBot (Yuna ):
 
         logger.info("INIT", "Setting up component interactions")
         try:
-            # Setup interaction handlers for components v2
+            
             self.setup_component_interactions()
             logger.success("INIT", "Component interaction handlers configured")
         except Exception as e:
             logger.error("INIT", f"Failed to setup component interactions: {e}")
-            # Don't raise here, as this is not critical
 
     def setup_component_interactions(self):
         """Setup component interaction handlers for Components v2"""
@@ -403,7 +402,7 @@ async def on_command_completion (context :commands .Context )->None :
                 
                 await webhook .send (view =view )
         except Exception as e :
-            pass  # Silently ignore webhook errors (likely invalid WEBHOOK_URL)
+            pass  
 
 
 
