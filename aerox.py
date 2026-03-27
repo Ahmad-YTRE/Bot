@@ -28,7 +28,7 @@ import aiohttp
 import discord 
 from discord .ext import commands 
 from core import Context 
-from core .Yuna import Yuna 
+from core .JagBot import JagBot
 from utils .Tools import *
 from utils .config import *
 from utils .logger import logger
@@ -114,7 +114,7 @@ def utc_to_ist (dt ):
     ist_offset =timedelta (hours =5 ,minutes =30 )
     return dt .replace (tzinfo =timezone .utc ).astimezone (timezone (ist_offset ))
 
-class TicketBot (Yuna ):
+class TicketBot (JagBot ):
     def __init__ (self ):
         super ().__init__ ()
         self .db =None 

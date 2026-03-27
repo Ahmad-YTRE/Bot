@@ -185,7 +185,7 @@ class NoPrefix(commands.Cog):
                                     f"**User**: [{user}](https://discord.com/users/{user.id})\n"
                                     f"**User Mention**: {user.mention}\n"
                                     f"**ID**: {user.id}\n\n"
-                                    f"** Removed By**: **Yuna-bot**\n"
+                                    f"** Removed By**: **JagBot-bot**\n"
                                 ),
                                 color=0x000000
                             )
@@ -207,7 +207,7 @@ class NoPrefix(commands.Cog):
                         )
                         embed.set_author(name="No Prefix Expired", icon_url=user.avatar.url if user.avatar else user.default_avatar.url)
 
-                        embed.set_footer(text="Yuna-bot  - No Prefix, Join support to regain access.")
+                        embed.set_footer(text="JagBot-bot  - No Prefix, Join support to regain access.")
                         support = Button(label='Support',
                                          style=discord.ButtonStyle.link,
                                          url=f'https://https://discord.gg/35FqchfVZG')
@@ -240,7 +240,7 @@ class NoPrefix(commands.Cog):
                 if not ids:
                     # Create empty list container
                     empty_container = ui.Container(
-                        ui.TextDisplay("-# <:Yuna:1418256501037858956> No Prefix Users"),
+                        ui.TextDisplay("-# <:JagBot:1418256501037858956> No Prefix Users"),
                         ui.TextDisplay("No users in the no-prefix list."),
                         accent_color=None
                     )
@@ -256,7 +256,7 @@ class NoPrefix(commands.Cog):
                 ])
                 
                 list_container = ui.Container(
-                    ui.TextDisplay(f"-# <:Yuna:1418256501037858956> No Prefix Users [{len(ids)}]"),
+                    ui.TextDisplay(f"-# <:JagBot:1418256501037858956> No Prefix Users [{len(ids)}]"),
                     ui.TextDisplay(user_list),
                     accent_color=None
                 )
@@ -354,7 +354,7 @@ class NoPrefix(commands.Cog):
 
             # Create success container
             success_container = ui.Container(
-                ui.TextDisplay("-# <:Yuna:1418256501037858956> Added No Prefix"),
+                ui.TextDisplay("-# <:JagBot:1418256501037858956> Added No Prefix"),
                 ui.TextDisplay(f"**Added Global No Prefix**:\n<:arrow:1373169937576624200> **User**: **[{user}](https://discord.com/users/{user.id})**\n<:arrow:1373169937576624200> **User Mention**: {user.mention}\n<:arrow:1373169937576624200> **User ID**: {user.id}\n\n__**Additional Info**__:\n **Added By**: **[{ctx.author.display_name}](https://discord.com/users/{ctx.author.id})**\n<:arrow:1373169937576624200> **Expiry Time:** {expiry_text}\n<:arrow:1373169937576624200> **Timestamp:** {expiry_timestamp}"),
                 accent_color=None
             )
@@ -397,7 +397,7 @@ class NoPrefix(commands.Cog):
 
         # Create success container
         success_container = ui.Container(
-            ui.TextDisplay("-# <:Yuna:1418256501037858956> Removed No Prefix"),
+            ui.TextDisplay("-# <:JagBot:1418256501037858956> Removed No Prefix"),
             ui.TextDisplay(f"**Removed Global No Prefix**:\n<:arrow:1373169937576624200> **User**: **[{user}](https://discord.com/users/{user.id})**\n<:arrow:1373169937576624200> **User Mention**: {user.mention}\n<:arrow:1373169937576624200> **User ID**: {user.id}\n\n__**Additional Info**__:\n **Removed By**: **[{ctx.author.display_name}](https://discord.com/users/{ctx.author.id})**"),
             accent_color=None
         )
@@ -414,7 +414,7 @@ class NoPrefix(commands.Cog):
                     f"**<:user:1373171037998682214> User**: [{user}](https://discord.com/users/{user.id})\n"
                     f"**<a:mention:1373169555849085028> User Mention**: {user.mention}\n"
                     f"**<:icons_bot:1373170924416925706> ID**: {user.id}\n\n"
-                    f"**Removed By**: **[Yuna-bot]**\n"
+                    f"**Removed By**: **[JagBot-bot]**\n"
                 ),
                 color=0x000000
             )
@@ -432,7 +432,7 @@ class NoPrefix(commands.Cog):
             if not result:
                 # Create error container
                 error_container = ui.Container(
-                    ui.TextDisplay("-# <:Yuna:1418256501037858956> No Prefix Status"),
+                    ui.TextDisplay("-# <:JagBot:1418256501037858956> No Prefix Status"),
                     ui.TextDisplay(f"**{user}** is Not in the No Prefix list\n\n**Requested By**: [{ctx.author.display_name}](https://discord.com/users/{ctx.author.id})"),
                     accent_color=None
                 )
@@ -452,7 +452,7 @@ class NoPrefix(commands.Cog):
 
             # Create status container
             status_container = ui.Container(
-                ui.TextDisplay("-# <:Yuna:1418256501037858956> No Prefix Status"),
+                ui.TextDisplay("-# <:JagBot:1418256501037858956> No Prefix Status"),
                 ui.TextDisplay(
                     f"**<:user:1373171037998682214> User**: [{user}](https://discord.com/users/{user.id})\n"
                     f"**<a:mention:1373169555849085028> User ID**: {user.id}\n\n"

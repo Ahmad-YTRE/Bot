@@ -22,7 +22,7 @@ class Mention (commands .Cog ):
 
         self .color =0x000000 
 
-        self .bot_name ="Yuna"
+        self .bot_name ="JagBot"
         self .bot .loop .create_task (self .setup_database ())
 
     async def setup_database (self ):
@@ -103,7 +103,7 @@ class Mention (commands .Cog ):
 
                 content = (
                     f"### 👋 Hey [{message.author.display_name}](https://discord.com/users/{message.author.id})!\n"
-                    f"I'm **Yuna**, your intelligent and friendly companion. <a:ButterflyWhite:1479361913812025386>\n"
+                    f"I'm **JagBot**, your intelligent and friendly companion. <a:ButterflyWhite:1479361913812025386>\n"
                     f"> - **Server Prefix:** `{prefix}`\n"
                     f"> - **Total Commands:** `{self.bot.total_commands if hasattr(self.bot, 'total_commands') else '81'}`\n"
                     f"> - **Developer:** [itsfizys](https://discord.com/users/1124248109472550993)"

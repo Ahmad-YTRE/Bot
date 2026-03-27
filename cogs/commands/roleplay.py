@@ -13,11 +13,11 @@ import aiohttp
 import random 
 from core import Context 
 from core .Cog import Cog 
-from core .Yuna import Yuna 
+from core .JagBot import JagBot
 from utils .Tools import *
 
 class Roleplay (Cog ,name ="roleplay"):
-    def __init__ (self ,client :Yuna ):
+    def __init__ (self ,client :JagBot ):
         self .client =client 
 
     def help_custom (self ):
@@ -562,7 +562,7 @@ class Roleplay (Cog ,name ="roleplay"):
         """Run quickly"""
         await self .create_action_embed_interaction (interaction ,"run")
 
-async def setup (client :Yuna ):
+async def setup (client :JagBot ):
     cog =Roleplay (client )
     await client .add_cog (cog )
     client .tree .add_command (cog .roleplay_group )

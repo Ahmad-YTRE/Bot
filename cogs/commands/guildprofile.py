@@ -8,14 +8,14 @@ from __future__ import annotations
 from discord.ext import commands
 from discord import ui
 import discord
-from core import Cog, Yuna, Context
+from core import Cog, JagBot, Context
 from utils.Tools import *
 
 
 class GuildProfile(Cog):
     """Commands to customize the bot's guild-specific profile"""
     
-    def __init__(self, bot: Yuna):
+    def __init__(self, bot: JagBot):
         self.bot = bot
 
     @commands.command(
