@@ -21,7 +21,7 @@ from typing import *
 from utils import*
 from utils .config import BotName ,serverLink
 from utils import Paginator ,DescriptionEmbedPaginator ,FieldPagePaginator ,TextPaginator
-from core import Cog ,Yuna ,Context
+from core import Cog ,JagBot ,Context
 from typing import Optional
 import aiosqlite
 import asyncio
@@ -526,7 +526,7 @@ class Extra (commands .Cog ):
       view = ui.LayoutView()
       container = ui.Container(accent_color=None)
 
-      container.add_item(ui.TextDisplay("# ⏰ Yuna-bot Uptime"))
+      container.add_item(ui.TextDisplay("# ⏰ JagBot-bot Uptime"))
       container.add_item(ui.Separator())
 
       uptime_info = f"<:icon_danger:1373170993236803688> **UTC:** {uptime_string}\n\n<:icon_ping:1373948868114513972> **Online Duration:** {uptime_duration_string}"

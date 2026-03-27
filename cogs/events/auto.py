@@ -6,14 +6,14 @@
 """
 import discord 
 from discord .utils import *
-from core import Yuna ,Cog 
+from core import JagBot ,Cog
 from utils .Tools import getConfig 
 from utils .config import BotName ,serverLink 
 from discord .ext import commands 
 from discord import ui
 
 class Autorole (Cog ):
-    def __init__ (self ,bot :Yuna ):
+    def __init__ (self ,bot :JagBot ):
         self .bot =bot
 
     @commands .Cog .listener (name ="on_guild_join")

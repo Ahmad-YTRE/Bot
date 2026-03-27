@@ -30,7 +30,7 @@ extensions :List [str ]=[
 "cogs"
 ]
 
-class Yuna (commands .AutoShardedBot ):
+class JagBot (commands .AutoShardedBot ):
 
     def __init__ (self ,*arg ,**kwargs ):
         intents =discord .Intents .all ()
@@ -70,7 +70,7 @@ class Yuna (commands .AutoShardedBot ):
     async def set_streaming_status (self ):
         activity =discord .Streaming (
             name ="&help | AeroX Development",
-            url ="https://twitch.tv/Yuna"
+            url ="https://twitch.tv/JagBot"
         )
         await self .change_presence (status =discord .Status .idle ,activity =activity )
 
@@ -161,7 +161,7 @@ class Yuna (commands .AutoShardedBot ):
 
 def setup_bot ():
     intents =discord .Intents .all ()
-    bot =Yuna (intents =intents )
+    bot =JagBot (intents =intents )
     return bot
 
 """

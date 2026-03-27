@@ -5,13 +5,13 @@
     + for any queries reach out Community or DM me.
 """
 import discord 
-from core import Yuna ,Cog 
+from core import JagBot ,Cog
 from discord .ext import commands 
 import aiosqlite 
 from datetime import datetime ,timedelta 
 
 class AutoBlacklist (Cog ):
-    def __init__ (self ,client :Yuna ):
+    def __init__ (self ,client :JagBot ):
         self .client =client 
         self .spam_cd_mapping =commands .CooldownMapping .from_cooldown (5 ,5 ,commands .BucketType .member )
         self .spam_command_mapping =commands .CooldownMapping .from_cooldown (6 ,10 ,commands .BucketType .member )
