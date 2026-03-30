@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 from __future__ import annotations 
@@ -346,7 +346,7 @@ class Owner (commands .Cog ):
         timestamp =discord .utils .utcnow ()
         )
         embed .set_author (
-        name ="AeroX Development Team",
+        name ="Ahmad_YTRE Team",
         icon_url =self .client .user .avatar .url if self .client .user .avatar else self .client .user .default_avatar .url 
         )
         embed .set_footer (
@@ -1090,8 +1090,8 @@ class Badges (commands .Cog ):
 
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

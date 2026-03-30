@@ -69,10 +69,10 @@ BOT_PREFIX=!
 
 ### 👨‍💻 Development Team
 
-**Developer:** Aegis  
-**Discord:** `itsfizys`  
-**Community:** AeroX Development  
-**Discord Server:** [discord.gg/aerox](https://discord.gg/aerox)
+**Developer:** Ahmad_YTRE
+**Discord:** `Ahmad.exe/Ahmad_YTRE`
+**Community:** Ahmad_YTRE
+**Discord Server:** [https://discord.gg/JZCtSUWf39](https://discord.gg/JZCtSUWf39)
 
 ---
 
@@ -82,7 +82,7 @@ BOT_PREFIX=!
 
 Based on the original Olympus Bot by Olympus Development.  
 **Original Repository:** [olympus-bot](https://github.com/sonujana26/olympus-bot)  
-**Discord Server:** [discord.gg/odx](https://discord.gg/odx) (Olympus Server)
+**Discord Server:** [https://discord.gg/JZCtSUWf39](https://discord.gg/JZCtSUWf39) (Olympus Server)
 
 *Original Olympus Bot © 2025 Olympus Development — All rights reserved.*
 
@@ -92,11 +92,11 @@ Based on the original Olympus Bot by Olympus Development.
 - Modification: ❌ Not allowed unless licensed
 - Patents/Derivatives: ❌ No rights to publish forks under any name
 
-For licensing inquiries: https://discord.gg/odx
+For licensing inquiries: https://discord.gg/JZCtSUWf39
 
 ---
 
-**Made with ❤️ by [AeroX Development](https://discord.gg/aerox)**
+**Made with ❤️ by [Ahmad_YTRE](https://discord.gg/JZCtSUWf39)**
 
 *Based on Olympus • Powered by Python & Discord.py • Component V2 Interface*
 

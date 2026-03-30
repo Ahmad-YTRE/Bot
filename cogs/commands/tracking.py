@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord 
@@ -1752,8 +1752,8 @@ async def setup (bot ):
     await bot .add_cog (TrackingCog (bot ))
     logger .info ("TrackingCog has been loaded successfully.")
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

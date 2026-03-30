@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import asyncio
@@ -794,13 +794,13 @@ class General(commands.Cog):
         action_row.add_item(ui.Button(
             label="Support Server",
             style=discord.ButtonStyle.link,
-            url="https://discord.gg/meet"
+            url="https://discord.gg/JZCtSUWf39"
         ))
         container.add_item(action_row)
 
         container.add_item(ui.Separator())
 
-        footer_info = f"Developed by **AeroX Development**"
+        footer_info = f"Developed by **Ahmad_YTRE**"
         container.add_item(ui.TextDisplay(footer_info))
 
         view.add_item(container)

@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 from utils import getConfig 
@@ -106,12 +106,12 @@ class Mention (commands .Cog ):
                     f"I'm **JagBot**, your intelligent and friendly companion. <a:ButterflyWhite:1479361913812025386>\n"
                     f"> - **Server Prefix:** `{prefix}`\n"
                     f"> - **Total Commands:** `{self.bot.total_commands if hasattr(self.bot, 'total_commands') else '81'}`\n"
-                    f"> - **Developer:** [itsfizys](https://discord.com/users/1124248109472550993)"
+                    f"> - **Developer:** [Ahmad.exe/Ahmad_YTRE](https://discord.com/users/1124248109472550993)"
                 )
                 container.add_item(ui.TextDisplay(content))
                 view.add_item(container)
                 await message .channel .send (view=view)
 """
-: ! Aegis !
-    + Discord: itsfizys
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
 """

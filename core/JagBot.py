@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 from __future__ import annotations
@@ -69,7 +69,7 @@ class JagBot (commands .AutoShardedBot ):
 
     async def set_streaming_status (self ):
         activity =discord .Streaming (
-            name ="&help | AeroX Development",
+            name ="&help | Ahmad_YTRE",
             url ="https://twitch.tv/JagBot"
         )
         await self .change_presence (status =discord .Status .idle ,activity =activity )
@@ -165,8 +165,8 @@ def setup_bot ():
     return bot
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
