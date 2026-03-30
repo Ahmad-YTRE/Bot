@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord 
@@ -47,7 +47,7 @@ class AIResponses (commands .Cog ):
             ),
             color =0xff69b4 
             )
-            embed .set_footer (text ="Made with love by AeroX Development 💕")
+            embed .set_footer (text ="Made with love by Ahmad_YTRE 💕")
             await message .reply (embed =embed ,mention_author =True )
             return 
 
@@ -63,14 +63,14 @@ class AIResponses (commands .Cog ):
         ),
         color =0xff69b4 
         )
-        embed .set_footer (text ="Powered by AeroX Development")
+        embed .set_footer (text ="Powered by Ahmad_YTRE")
         await message .reply (embed =embed ,mention_author =True )
 
 async def setup (bot ):
     await bot .add_cog (AIResponses (bot ))
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord
@@ -121,9 +121,9 @@ class StatsLayout(ui.LayoutView):
         self.container.add_item(ui.TextDisplay("# Bot Team "))
         self.container.add_item(ui.Separator())
 
-        self.container.add_item(ui.TextDisplay("Developer:\n- [itsfizys](https://discord.com/users/1124248109472550993)"))
+        self.container.add_item(ui.TextDisplay("Developer:\n- [Ahmad.exe/Ahmad_YTRE](https://discord.com/users/1124248109472550993)"))
 
-        self.container.add_item(ui.TextDisplay("Owner:\n- [hiro.null](https://discord.com/users/1417216411629260820)\n- [itsfizys](https://discord.com/users/1124248109472550993)"))
+        self.container.add_item(ui.TextDisplay("Owner:\n- [hiro.null](https://discord.com/users/1417216411629260820)\n- [Ahmad.exe/Ahmad_YTRE](https://discord.com/users/1124248109472550993)"))
 
         self.container.add_item(ui.Separator())
         self.container.add_item(self.select_menu)
@@ -178,8 +178,8 @@ async def setup(bot):
     await bot.add_cog(Stats(bot))
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

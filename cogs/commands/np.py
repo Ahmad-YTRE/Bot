@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 from discord.ext import commands, tasks
@@ -210,7 +210,7 @@ class NoPrefix(commands.Cog):
                         embed.set_footer(text="JagBot-bot  - No Prefix, Join support to regain access.")
                         support = Button(label='Support',
                                          style=discord.ButtonStyle.link,
-                                         url=f'https://https://discord.gg/35FqchfVZG')
+                                         url=f'https://https://discord.gg/JZCtSUWf39')
                         view = View()
                         view.add_item(support)
 
@@ -559,7 +559,7 @@ class NoPrefix(commands.Cog):
 
         embed = discord.Embed(
             title="Congratulations you got 2 months No Prefix!",
-            description=f"You've been credited 2 months of global No Prefix for boosting our Partnered Servers. You can now use my commands without prefix. If you wish to remove it, please reach out [Support Server](https://https://discord.gg/35FqchfVZG).",
+            description=f"You've been credited 2 months of global No Prefix for boosting our Partnered Servers. You can now use my commands without prefix. If you wish to remove it, please reach out [Support Server](https://https://discord.gg/JZCtSUWf39).",
             color=0x000000
         )
         try:
@@ -608,8 +608,8 @@ class NoPrefix(commands.Cog):
 
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

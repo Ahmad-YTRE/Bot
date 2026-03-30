@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord 
@@ -66,7 +66,7 @@ class WhitelistLayoutView(ui.LayoutView):
         self.container.add_item(ui.Separator())
         self.container.add_item(ui.TextDisplay(f"**Executor:** {ctx.author.mention}\n**Target:** {member.mention}"))
         self.container.add_item(ui.Separator())
-        self.container.add_item(ui.TextDisplay("Developed by AeroX Development"))
+        self.container.add_item(ui.TextDisplay("Developed by Ahmad_YTRE"))
         self.container.add_item(ui.Separator())
 
         select_row = ui.ActionRow(
@@ -136,7 +136,7 @@ class WhitelistLayoutView(ui.LayoutView):
         self.container.add_item(ui.Separator())
         self.container.add_item(ui.TextDisplay(f"**Executor:** {self.ctx.author.mention}\n**Target:** {self.member.mention}"))
         self.container.add_item(ui.Separator())
-        self.container.add_item(ui.TextDisplay("Developed by AeroX Development"))
+        self.container.add_item(ui.TextDisplay("Developed by Ahmad_YTRE"))
 
         if not interaction.response.is_done():
             await interaction.response.edit_message(view=self)
@@ -447,8 +447,8 @@ class Whitelist (commands .Cog ):
 
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

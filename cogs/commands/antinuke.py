@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord 
@@ -335,7 +335,7 @@ class Antinuke (commands .Cog ):
         container.add_item(ui.Separator())
 
         # Footer
-        footer_info = "Successfully Enabled Antinuke for this server | Powered by AeroX Development"
+        footer_info = "Successfully Enabled Antinuke for this server | Powered by Ahmad_YTRE"
         container.add_item(ui.TextDisplay(footer_info))
 
         # Add button
@@ -465,8 +465,8 @@ async def setup (bot ):
 
 
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """

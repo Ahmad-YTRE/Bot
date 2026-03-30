@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
 import discord 
@@ -225,7 +225,7 @@ class AdvancedTicketSystem (commands .Cog ):
                                 ping_role_id INTEGER,
                                 embed_title TEXT DEFAULT '🎫 Create a Support Ticket',
                                 embed_description TEXT DEFAULT 'Need help? Click the button below to create a ticket and our support team will assist you!',
-                                embed_footer TEXT DEFAULT 'Powered by AeroX Development',
+                                embed_footer TEXT DEFAULT 'Powered by Ahmad_YTRE',
                                 embed_color INTEGER DEFAULT 0,
                                 embed_image TEXT,
                                 embed_thumbnail TEXT
@@ -271,7 +271,7 @@ class AdvancedTicketSystem (commands .Cog ):
                             ping_role_id INTEGER,
                             embed_title TEXT DEFAULT '🎫 Create a Support Ticket',
                             embed_description TEXT DEFAULT 'Need help? Click the button below to create a ticket and our support team will assist you!',
-                            embed_footer TEXT DEFAULT 'Powered by AeroX Development',
+                            embed_footer TEXT DEFAULT 'Powered by Ahmad_YTRE',
                             embed_color INTEGER DEFAULT 0,
                             embed_image TEXT,
                             embed_thumbnail TEXT
@@ -484,7 +484,7 @@ class AdvancedTicketSystem (commands .Cog ):
         """Create a consistently branded embed"""
         embed =discord .Embed (title =title ,description =description ,color =color )
         embed .set_author (name ="JagBot Ticket System",icon_url =self .bot .user .avatar .url if self .bot .user .avatar else None )
-        embed .set_footer (text ="Developed By AeroX Development",icon_url =self .bot .user .avatar .url if self .bot .user .avatar else None )
+        embed .set_footer (text ="Developed By Ahmad_YTRE",icon_url =self .bot .user .avatar .url if self .bot .user .avatar else None )
         embed .timestamp =datetime .datetime .utcnow ()
         return embed 
 
@@ -1528,7 +1528,7 @@ class AdvancedTicketSystem (commands .Cog ):
             )
 
             welcome_embed .set_footer (
-            text ="Developed By AeroX Development",
+            text ="Developed By Ahmad_YTRE",
             icon_url =self .bot .user .avatar .url if self .bot .user .avatar else None 
             )
             welcome_embed .timestamp =created_time 
@@ -1672,7 +1672,7 @@ class AdvancedTicketSystem (commands .Cog ):
             description =config [1 ]or "Need help? Click the button below to create a ticket and our support team will assist you!",
             color =config [3 ]or 0x000000 
             )
-            embed .set_footer (text =config [2 ]or "Developed By AeroX Development")
+            embed .set_footer (text =config [2 ]or "Developed By Ahmad_YTRE")
             embed .timestamp =datetime .datetime .utcnow ()
 
 
@@ -1844,7 +1844,7 @@ class TicketSetupView (discord .ui .View ):
                 log_channel .id if log_channel else None ,
                 "🎫 Create a Support Ticket",
                 "Need help? Click the button below to create a ticket and our support team will assist you!",
-                "Developed By AeroX Development",
+                "Developed By Ahmad_YTRE",
                 0x000000 ,
                 None ,
                 None 
@@ -2968,7 +2968,7 @@ class TicketAuthorInfoView (discord .ui .View ):
                 )
 
             embed .set_footer (
-            text ="Developed By AeroX Development",
+            text ="Developed By Ahmad_YTRE",
             icon_url =interaction .client .user .avatar .url if interaction .client .user .avatar else None 
             )
 
@@ -3024,8 +3024,8 @@ async def setup (bot ):
         import traceback 
         logger .error (f"Persistent view setup traceback: {traceback.format_exc()}")
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! Ahmad_YTRE !
+    + Discord: Ahmad.exe/Ahmad_YTRE
+    + Community: https://discord.gg/JZCtSUWf39 (Ahmad_YTRE )
     + for any queries reach out Community or DM me.
 """
